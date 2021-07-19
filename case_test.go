@@ -26,4 +26,6 @@ func TestCase(t *testing.T) {
 	fmt.Println(res, ok)
 	fmt.Println("两个Gorutine 生成随机数: ")
 	generateInt()
+	fmt.Println("多协程查询切片问题: ")
+	SearchAction()
 }
